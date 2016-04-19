@@ -1,0 +1,28 @@
+.invalid {
+  background-color: red;
+}
+
+.wrapper {
+  box-sizing: border-box;
+  position: fixed;
+  top: 10%;
+  right: 0;
+  overflow: hidden;
+}
+
+.definitions {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: beige;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.tab {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(-90deg);
+  background-color: beige;
+}
